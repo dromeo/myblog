@@ -1,0 +1,1 @@
+<html><head><title>Lista de Clientes</title></head><body><h1>Clientes</h1>{% if cliente%}		{%for p in cliente%}		<p>{{p.nombre}}</p>		{% endfor%}{% else %}<h2>No existen clientes en la lista</h2>{% endif %}</body></html>
